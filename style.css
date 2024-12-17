@@ -525,23 +525,6 @@ header nav .nav-items li a:hover{
         font-size: 20px;
         text-align: center;
     }
-    /* تعديل محتوى الـ Sections */
-    #section-2 .container .row,
-    #section-3 .container .row,
-    #section-4 .container .row {
-        flex-direction: column;
-        align-items: center; 
-    }
-    .card {
-        margin-bottom: 20px;
-        padding: 10px;
-        text-align: center;
-    }
-    /* تصغير الصور */
-    img {
-        width: 100%; 
-        height: auto;
-    }
     /* تعديل الفوتر */
     #footer .footer-container {
         display: flex;
@@ -589,6 +572,15 @@ header nav .nav-items li a:hover{
         height: 668.55px;
         right: 0px;
         position:absolute;
+    }
+    #section-4 .container .row h4{
+        text-align: center;
+        font-size: 15px;
+        width: 30%;
+        margin: auto;
+    }
+    #section-4 .container .row .line{
+        width: 70%;
     }
     
 }
