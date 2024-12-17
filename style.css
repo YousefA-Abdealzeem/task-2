@@ -420,7 +420,8 @@ header nav .nav-items li a:hover{
         height: 534.38px;
         right: 0px;
         position:absolute;
-    }#footer .border2{
+    }
+    #footer .border2{
         background-color:rgba(0, 0, 0, 0.377);
         width: 20px;
         height: 534.38px;
@@ -499,10 +500,96 @@ header nav .nav-items li a:hover{
     font-size: 20px;
     margin: 8px;
 }
-#footer .border1{
-    background-color: rgba(0, 0, 0, 0.377);
-}
 #footer .border2{
     background-color:rgba(0, 0, 0, 0.377);
+    width: 20px;
+    height: 664.05px;
+    left: 0px;
+    position:absolute;
+}
+#footer .border1{
+    background-color:rgba(0, 0, 0, 0.377);
+    width: 20px;
+    height: 664.05px;
+    right: 0px;
+    position:absolute;
 }
 }
+@media (max-width: 460px) {
+    /* تعديل الـ Navbar */
+    .nav-items {
+        display: none; 
+    }
+    .bars {
+        display: block; 
+        font-size: 20px;
+        text-align: center;
+    }
+    /* تعديل محتوى الـ Sections */
+    #section-2 .container .row,
+    #section-3 .container .row,
+    #section-4 .container .row {
+        flex-direction: column;
+        align-items: center; 
+    }
+    .card {
+        margin-bottom: 20px;
+        padding: 10px;
+        text-align: center;
+    }
+    /* تصغير الصور */
+    img {
+        width: 100%; 
+        height: auto;
+    }
+    /* تعديل الفوتر */
+    #footer .footer-container {
+        display: flex;
+        flex-direction: column; /* ترتيب العناصر عمودي */
+        align-items: center; /* توسيط العناصر أفقياً */
+        padding: 10px;
+    }
+    
+    #footer .footer-column {
+        margin-bottom: 15px; /* مسافة بين الأعمدة */
+        text-align: center; /* توسيط النصوص بداخل الأعمدة */
+        width: 100%; /* جعل الأعمدة تمتد على كامل العرض */
+    }
+    
+    #footer .about-details ul {
+        padding: 0;
+        list-style: none;
+    }
+    
+    #footer .about-details a {
+        display: inline-block;
+        margin: 5px; /* مسافة بين الأيقونات */
+        font-size: 18px;
+    }
+    
+    #footer .footer-column h3 {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+    
+    #footer .footer-column p {
+        font-size: 12px;
+        line-height: 1.4;
+    }
+    #footer .border2{
+        background-color:rgba(0, 0, 0, 0.377);
+        width: 15px;
+        height: 668.55px;
+        left: 0px;
+        position:absolute;
+    }
+    #footer .border1{
+        background-color:rgba(0, 0, 0, 0.377);
+        width: 15px;
+        height: 668.55px;
+        right: 0px;
+        position:absolute;
+    }
+    
+}
+
